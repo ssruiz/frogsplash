@@ -7,12 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#66a400',
+        frogBlack: '#181913',
+        frogLight: '#83bb61',
+        frogGrey: '#5a5b4a',
       },
     },
   },
-  plugins: [],
-}
+  plugins: [require('tailwindcss-animated')],
+};
