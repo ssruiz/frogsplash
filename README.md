@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://frogsplash.vercel.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](/public/previewfrog.gif)
 
 Hi! I developed this project with Nextjs, MongoDb and Tailwind.
 
@@ -47,16 +47,16 @@ Also tried the new feature in Next 13 Action Servers.
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [![vuejs][vuejs]][vuejs-url]
-- [![vite][vite]][vite-url]
+- [![Nextjs][Nextjs]][Nextjs-url]
 - [![Tailwind][Tailwind]][Tailwind-url]
+- [![Mongo][Mongo]][Mongo-url]
 
-[vuejs]:
-  https://img.shields.io/badge/vuejs-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white
-[vuejs-url]: https://nextjs.org/
-[vite]:
-  https://img.shields.io/badge/vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
-[vite-url]: https://vercel.com/docs/storage
+[Nextjs]:
+  https://img.shields.io/badge/nextjs-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Nextjs-url]: https://nextjs.org/
+[Mongo]:
+  https://img.shields.io/badge/mongo-47A248?style=for-the-badge&logo=mongodb&logoColor=white
+[Mongo-url]: https://nextjs.org/
 [Tailwind]:
   https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white
 [Tailwind-url]: https://vercel.com/docs/storage
@@ -80,29 +80,21 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone git@github.com:ssruiz/frogsplash.git
 
 # Install dependencies
-$ npm install
+$ yarn
 
 # Run the app
-$ npm start
+$ yarn dev
 ```
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
 
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
+- [Mansory Layout](https://medium.com/notonlycss/tailwindcss-masonry-layout-553cdaea2e8a)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
-
-### aknowlegments
-
-https://medium.com/notonlycss/tailwindcss-masonry-layout-553cdaea2e8a
+- GitHub [@ssruiz](https://github.com/ssruiz)
